@@ -1,0 +1,9 @@
+# Python 3.11. Original project's core dependency versions are retained.
+tensorflow==2.15.0
+matplotlib==3.8.2
+numpy==1.26.3
+kagglehub==0.2.1
+# Added for webcam/overlay inference and running the notebooks locally.
+opencv-python==4.9.0.80
+jupyterlab>=4.0,<5.0
+ipykernel>=6.0,<7.0

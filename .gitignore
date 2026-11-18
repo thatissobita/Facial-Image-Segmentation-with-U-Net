@@ -1,0 +1,31 @@
+# Environments and Python/Jupyter caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Local datasets, weights and generated results
+data/
+datasets/
+models/
+outputs/
+*.h5
+*.hdf5
+*.keras
+*.ckpt*
+*.zip
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+kaggle.json
+.kaggle/
+
+# Operating-system/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
